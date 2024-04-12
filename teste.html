@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Consulta</title>
+</head>
+<body>
+    <!-- criamos um formulario -->
+    <form name="Consulta">
+        <p2>Consultando dados através RA do aluno</p2><br><br>
+        <!-- RA precisa, através dele (codigo:PK) para buscar dados -->
+        RA : <br>
+        <input type="number" name="numRA"><br>
+
+        Nome : <br>
+        <input type="text" name="txtRA"><br>
+
+        E-mail : <br>
+        <input type="text" name="txtEmail"><br>
+
+        Telefone : <br>
+        <input type="number" name="numTelefone"><br><br>
+
+        <!-- Criamos um botão para a operação de busca -->
+        <input type="button" name="btBuscar" value="Consultar" onclick="buscar(event,this)">
+
+        <!-- criamos um botão para limpar os campos -->
+        <input type="reset" value="Limpar">
+    </form>
+</body>
+</html>
